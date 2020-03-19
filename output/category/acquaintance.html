@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <title>experience</title>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/theme/css/poole.css"/>
+    <link rel="stylesheet" href="/theme/css/syntax.css"/>
+    <link rel="stylesheet" href="/theme/css/lanyon.css"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+    <link rel="stylesheet" href="/theme/css/styles.css"/>
+  </head>
+
+  <body>
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <div class="profile">
+      <img src="/theme/img/profile.png"/>
+    </div>
+  </div>
+
+  <nav class="sidebar-nav">
+  <a class="sidebar-nav-item" href="/">All posts</a>
+
+      <a class="sidebar-nav-item" href="/category/acquaintance.html">Acquaintance</a>
+
+  <a class="sidebar-nav-item" href="pages/contact.html">Contacts</a>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+<!--
+    <a href="https://twitter.com/">&copy; @</a> 2017
+-->
+    </p>
+    <p class="tiny-note">
+      <a class="muted" href="https://github.com/thomaswilley/pelicanyan">Powered by Pelican :: Theme based on Pelicanyan</a>
+    </p>
+  </div>
+</div>    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">experience</a>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+<div class="content-title">
+<h2>Acquaintance category</h2>
+</div>
+<div class="posts">
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/my-first-review.html" rel="bookmark" title="Permalink to My First Review">My First&nbsp;Review</a>
+    </h1>
+    <span class="post-date">березня 18, 2020</span>
+
+    <p>Hi,
+my name is Max. I have long time wanted to write blog. But usually I&#8217;was afraide to start. Sometimes I writed in facebook.
+Of course my English is wisht goodluck, but I want to develope it. I joy that find this clean minimalistic thems of blog lanyon, which looks just I wanted.
+I learn program language Pyhon. 
+It is start of spring and I feel some kind of new hope to the&nbsp;life.</p>
+  </div>
+</div>
+<!--// updated -->
+<div class="pagination">
+        <span class="pagination-item newer">newer</span>
+        <span class="pagination-item older">older</span>
+</div>
+      </div>
+
+      <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+      <script>
+        (function(document) {
+          var i = 0;
+          // snip empty header rows since markdown can't
+          var rows = document.querySelectorAll('tr');
+          for(i=0; i<rows.length; i++) {
+            var ths = rows[i].querySelectorAll('th');
+            var rowlen = rows[i].children.length;
+            if (ths.length > 0 && ths.length === rowlen) {
+              rows[i].remove();
+            }
+          }
+        })(document);
+      </script>
+
+      <script>
+        /* Lanyon & Poole are Copyright (c) 2014 Mark Otto. Adapted to Pelican 20141223 and extended a bit by @thomaswilley */
+        (function(document) {
+          var toggle = document.querySelector('.sidebar-toggle');
+          var sidebar = document.querySelector('#sidebar');
+          var checkbox = document.querySelector('#sidebar-checkbox');
+          document.addEventListener('click', function(e) {
+            var target = e.target;
+            if(!checkbox.checked ||
+            sidebar.contains(target) ||
+            (target === checkbox || target === toggle)) return;
+            checkbox.checked = false;
+            }, false);
+            })(document);
+      </script>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-12344321-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+       </script>
+     </div>
+  </body>
+</html>
