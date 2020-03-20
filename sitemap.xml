@@ -2,7 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>/my-first-review.html</loc>
+    <loc>/change_of_time.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>/My_First_Review.html</loc>
     <priority>0.8</priority>
   </url>
 
