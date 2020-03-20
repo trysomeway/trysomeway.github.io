@@ -1,3 +1,2 @@
-# repository for blog
-Pelican, theme pelicanyan, minimalism, blog writing about
-life and technical knowledge.
+# repository for blog my https://trysomeway.github.io/
+Blog writing about life observation.
