@@ -36,6 +36,7 @@ DISPLAY_PAGES_ON_MENU = True
 ROBOTS_SAVE_AS = 'robots.txt'
 HUMANS_SAVE_AS = 'humans.txt'
 SITEMAP_SAVE_AS = 'sitemap.xml'
+
 DEFAULT_LANG = 'en'
 DATE_FORMATS = { 'en': '%B %d, %Y', }
 STATIC_PATHS = ['images', 'favicon.ico']
